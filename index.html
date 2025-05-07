@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="24/7 Truck Road Service in Brownsville, Texas. Roadside assistance, tire repair, and towing for commercial trucks. Call now!">
+    <meta name="keywords" content="truck road service, roadside assistance for trucks, truck tire repair, truck towing, Brownsville truck service">
+    <meta name="author" content="Lynx Road Service">
+    <meta name="robots" content="index, follow">
+    <title>Lynx Road Service | Truck Road Service in Brownsville, Texas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        header {
+            background: #003087;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        header img:hover {
+            transform: scale(1.05);
+        }
+        nav {
+            background: #ffffff;
+            padding: 1rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: #003087;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ff6200;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+        }
+        .hero {
+            background: url('../Logistics/img/truck.jpg') center/cover no-repeat;
+            padding: 5rem 2rem;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+            position: relative;
+            min-height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 1;
+        }
+        .hero > * {
+            position: relative;
+            z-index: 2;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #ff6200;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .cta-button:hover {
+            background: #e55a00;
+            transform: translateY(-2px);
+        }
+        .content {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 1rem;
+        }
+        .content h2 {
+            color: #003087;
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        .service-card h3 {
+            color: #ff6200;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .service-card p {
+            color: #555;
+        }
+        footer {
+            background: #003087;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+        footer a {
+            color: #ff6200;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            .hero {
+                padding: 3rem 1rem;
+                min-height: 400px;
+            }
+            .hero h2 {
+                font-size: 2rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .cta-button {
+                padding: 0.75rem 1.5rem;
+            }
+            .content h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/Logistics/img/lynx.jpg" alt="Lynx Road Service Logo" class="logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    <section class="hero" id="home">
+        <h2>Fast, Reliable Truck Roadside Assistance</h2>
+        <p>Stuck on the road? We provide 24/7 towing, tire repair, and emergency services for trucks in Brownsville, Texas.</p>
+        <a href="#contact" class="cta-button">Call Now: (123) 456-7890</a>
+    </section>
+    <section class="content" id="services">
+        <h2>Our Services</h2>
+        <p>We specialize in keeping your trucks on the road with expert roadside assistance and repair services in Brownsville, Texas.</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Towing Services</h3>
+                <p>Heavy-duty towing for trucks of all sizes, available 24/7.</p>
+            </div>
+            <div class="service-card">
+                <h3>Tire Repair</h3>
+                <p>Quick tire repair and replacement to get you moving.</p>
+            </div>
+            <div class="service-card">
+                <h3>Emergency Repairs</h3>
+                <p>On-site mechanical repairs for breakdowns.</p>
+            </div>
+            <div class="service-card">
+                <h3>Fuel Delivery</h3>
+                <p>Ran out of fuel? We’ll deliver diesel to your location.</p>
+            </div>
+        </div>
+    </section>
+    <section class="content" id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out anytime for immediate assistance in Brownsville, Texas.</p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+        <p><strong>Email:</strong> <a href="mailto:info@lynxroadservice.com">info@lynxroadservice.com</a></p>
+        <a href="tel:+1234567890" class="cta-button">Call Now</a>
+    </section>
+    <section class="content" id="about">
+        <h2>About Us</h2>
+        <p>Lynx Road Service has been providing trusted truck road service in Brownsville, Texas for over 10 years. Our experienced technicians are dedicated to getting your fleet back on the road quickly and safely.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Lynx Road Service. All rights reserved.</p>
+        <p>Brownsville, Texas | (123) 456-7890 | <a href="mailto:info@lynxroadservice.com">info@lynxroadservice.com</a></p>
+    </footer>
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
